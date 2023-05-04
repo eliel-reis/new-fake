@@ -1,13 +1,30 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 500px) {
 
-
-
-
-    .links {
-        border: 1px solid purple;
+    .navbar {
+        display: inline-block;
         width: 100%;
-        padding: 3% 3% 3% 0%;
 
     }
 
+    .logo {
+        font-size: 20px;
+    }
+
+    .links {
+        width: 100%;
+        text-align: center;
+    }
+
+    .links a {
+        margin: 1px;
+    }
+
+    header {
+        margin-top: 20px;
+        display: block;
+    }
+
+    .part-01 {
+        text-align: center;
+    }
 }
