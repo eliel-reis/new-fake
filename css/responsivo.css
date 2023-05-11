@@ -21,10 +21,16 @@
 
     header {
         margin-top: 20px;
-        display: block;
+        flex-direction: column;
+        text-align: center;
     }
 
     .part-01 {
-        text-align: center;
+        flex: 100%;
+        padding: 8px;
+    }
+
+    .part-01 p {
+        text-align: justify;
     }
 }
